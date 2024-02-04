@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>🎲 Dice Game 🎲</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body id="Body">
+        <div class="Winner">
+            <h1><strong>🎉 Player 1 wins 🎉</strong></h1>
+        </div>
+        <div class="container">
+            <div class="subcontainer">
+                <div class="first_cube">
+                    <div class="cube">
+                        <img class="dice" id="firstDice" src="images/2.png">
+                    </div>
+                    <div class="text">
+                        <h3>👤 Player 1 👤</h3>
+                    </div>
+                </div>
+
+                <div class="second_cube">
+                    <div class="cube">
+                        <img class="dice" id="secondDice" src="images/1.png">
+                    </div>
+                    <div class="text">
+                        <h3>👤 Player 2 👤</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="subcontainer">
+                <div class="RollDice">
+                    <button class="btn" onclick="RollDice"><strong>Roll Dice</strong></button>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p class="copyright">© 2023-<span class="cpy-underline">Shravan Bobade</span></p>
+        </footer>
+
+        <script src="index.js"></script>
+
+    </body>
+</html>

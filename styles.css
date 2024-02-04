@@ -1,0 +1,98 @@
+/*******************by tag*******************/
+h1 {
+    font-size: 100px;
+    color: red;
+}
+
+div {
+    display: block;
+}
+
+/*******************by class*******************/
+
+.Winner {
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.container {
+    margin: 10px 0px 10px 0px;
+    width: 100%;
+}
+
+.subcontainer {
+    display: flex;
+    padding-left: 35%;
+    padding-right: 35%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.first_cube {
+    width: fit-content;
+    margin-right: 50px;
+}
+
+.second_cube {
+    width: fit-content;
+    margin-left: 50px;
+}
+
+.cube {
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.text {
+    text-align: center;
+    text-decoration: solid;
+}
+
+.RollDice {
+    padding-left: 32%;
+    padding-right: 32%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+
+.cpy-underline {
+    text-decoration: underline;
+}
+
+/*******************by id*******************/
+
+#Body {
+    background-color: rgba(6, 230, 107, 0.534);
+    text-align: center;
+    font-family: Arial;
+}
